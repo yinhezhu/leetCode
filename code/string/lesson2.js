@@ -1,6 +1,6 @@
 export default str => {
     if (!str || typeof str !== 'string') {
-        return 0;
+        return [];
     }
     let result = [];
     let match = (subStr) => {
@@ -15,10 +15,7 @@ export default str => {
     };
 
     for (let i = 0, len = str.length - 1; i < len; i++) {
-        let r = match(str.slice(i));
-        if (r) {
-            result.push(r);
-        }
+        match(str.slice(i));
     }
     return result;
 };
