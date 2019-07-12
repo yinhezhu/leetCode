@@ -1,15 +1,15 @@
 {
-  "name": "leetcode",
+  "name": "leetCode",
   "version": "1.0.0",
-  "description": "leetcode",
+  "description": "leetCode",
   "main": "index.js",
   "scripts": {
     "test": "jest ./test"
   },
   "keywords": [
-    "leetcode"
+    "leetCode"
   ],
-  "author": "cuc_ygh@163.com",
+  "author": "124104008@qq.com",
   "license": "Apache-2.0",
   "dependencies": {
     "@babel/core": "7.1.2",
